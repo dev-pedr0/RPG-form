@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" /> 
+	<meta name="viewport" content="width=device-width,user-scalable=0" />
+
+	<link rel="stylesheet" type="text/css" href="assets/css/template.css">
+
+	<title>Ficha de RPG</title>
+
+</head>
+
+<body>
+	
+	<div class="header">
+		<div class="texto1">
+			Bem Vindo(a) a Criação de Personagem de
+		</div>
+		<div class="img">
+			<img src="assets/imagens/Homestuck_logo.jpg">
+		</div>
+		<div class="texto2">
+			Siga as instruções abaixo e preencha todos os campos para concluir o formulário
+		</div>
+	</div>
+
+	<div class="form">
+		<form method="POST">
+
+			<div class="form1">
+				Escolha sua Raça:<br/>
+				<select name="opcoes">
+					<option value="1">Humano</option>
+					<option value="2">Troll</option>
+					<option value="3">Meio-Humano</option>
+					<option value="4">Meio-Troll</option>
+					<option value="5">Mutante</option>
+				</select>
+			</div>
+
+			<div class="form1">
+				Qual Grupo Aristocrata você defende?<br/>
+				<select name="opcoes">
+					<option value="1">Herdeiros</option>
+					<option value="2">Highnloods</option>
+					<option value="3">Ascendidos</option>
+					<option value="4">Revolucionários</option>
+					<option value="5">Únicos</option>
+				</select>
+			</div>
+
+			<div class="form1">
+				Defina seu Talento ou Poder de Casta<br/>
+				<textarea name="campo"></textarea>
+			</div>
+
+			<div class="form2">
+				Escolha seu Título/Classpect:<br/>
+				<input type="text" name="classe"/> of <input type="text" name="aspecto"/> 
+			</div>
+
+			<div class="form1">
+				No que você é bom:<br/>
+				<input type="text" name="virtude"/>
+			</div>
+
+			<br/><br/>
+
+			<div class="buttom">
+				<input type="submit" value="Concluir">
+			</div>
+				
+		</form>
+	</div>	
+
+</body>
+</html>
